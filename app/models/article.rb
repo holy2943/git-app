@@ -1,3 +1,3 @@
 class Article < ApplicationRecord
-  app/models/article.rb
+  validates_presence_of(:title)
 end
